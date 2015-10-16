@@ -1,0 +1,52 @@
+body {
+	color: #afaee3;
+	font-weight: bold;
+}
+#form {
+	display: block;
+	width: 300px;
+	background-color: #3c39cd;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 20px;
+}
+#formName {
+	border: none;
+	width: 250px;
+	height: 30px;
+    font-size: 16px;
+}
+#formEmail {
+	border: none;
+	width: 250px;
+	height: 30px;
+	font-size: 16px;
+}
+#formPassword {
+	border: none;
+	width: 250px;
+	height: 30px;
+    font-size: 16px;
+}
+#planPick {
+   width: 250px;
+   height: 30px;
+   overflow: hidden;
+   border: none;
+   font-size: 16px;
+}
+#submitBtn {
+	margin-top: 10px;
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	font-weight: bold;
+	background-color: #010a15;
+	color: #afaee3;
+	-webkit-appearance: none;
+}
+#submitBtn:hover {
+	background-color: #111c2b;
+}

@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MoreCloud - Free Unlimited VPS</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/signup.css"/>
+</head>
+<body>
+<div id="menuContainer">
+<div id="menuHeader">
+<div id="menuHeaderContact">
+<p>Call: 512-997-9577  &nbsp&nbsp&nbspEmail: sales@morecloud.net</p>
+</div>
+</div>
+<div id="menuBar">
+<div id="menuBarLogo">
+<a href="/"><img src="images/mcd_logo.png" height="25"></a>
+</div>
+<div id="menuBarLinks">
+<a href="/#pricing">Pricing</a>
+<a href="services.html" onclick="vpsAlert()">Services</a>
+<a href="signup.html">Sign Up</a>
+</div>
+</div>
+</div>
+<div id="content">
+<div id="form">
+<form action="signup.html">
+	<p>Name</p><input id="formName" type="text" name="name"><br>
+	<p>Email</p><input id="formEmail" type="text" name="email"><br>
+	<p>Password</p><input id="formPassword" type="password" name="pass"><br>
+	<p>Choose Plan</p><select id="planPick">
+		<option value="freeplan">Free Plan $0.00</option>
+		<option value="standardplan">Standard Plan $19.99</option>
+		<option value="proplan">Pro Plan $109.99</option>
+	</select><br>
+	<input id="submitBtn" type="submit" onclick="sentMessage()" value="Register">
+</form>
+</div>
+</div>
+<script src="services.js"></script>
+<script src="message.js"></script>
+</body>
+</html>

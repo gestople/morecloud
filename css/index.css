@@ -1,0 +1,112 @@
+#content {
+	margin-top: 150px;
+}
+#contentIntro {
+	text-align: center;
+	color: #272838;
+}
+#contentIntro h1 {
+	font-size: 40px;
+}
+#contentIntro h2 {
+	font-size: 30px;
+	margin-top: -20px;
+}
+#contentIntro p {
+	margin-top: -20px;
+}
+#signupBtn {
+	text-align: center;
+	margin-top: 40px;
+}
+#signupBtn a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #afaee3;
+	background-color: #3c39cd;
+	padding: 15px 30px;
+	transition: background 0.3s;
+}
+#signupBtn a:hover {
+	background-color: #4f4cd0;
+}
+#pricingWrapper {
+	display: block;
+	width: 100%;
+	height: 400px;
+	background-color: #3c39cd;
+	margin-top: 100px;
+}
+#pricing {
+	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 90%;
+	height: 200px;
+}
+#pricing1 {
+	display: block;
+	width: 30%;
+	height: 230px;
+	background-color: #19177d;
+	color: #afaee3;
+	margin-top: 100px;
+	float: left;
+}
+#pricing1 h1 {
+	padding-top: 5px;
+}
+#pricing1 p,h1 {
+	text-align: center;
+}
+#pricing2 {
+	display: block;
+	width: 30%;
+	height: 230px;
+	background-color: #19177d;
+	color: #afaee3;
+	margin-top: 100px;
+	margin-left: 55px;
+	float: left;
+}
+#pricing2 h1 {
+	padding-top: 5px;
+}
+#pricing2 p,h1 {
+	text-align: center;
+}
+#pricing3 {
+	display: block;
+	width: 30%;
+	height: 230px;
+	background-color: #19177d;
+	color: #afaee3;
+	margin-top: 100px;
+	margin-left: 15px;
+	float: right;
+}
+#pricing3 h1 {
+	padding-top: 5px;
+}
+#pricing3 p,h1 {
+	text-align: center;
+}
+#footer {
+	display: block;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	color: #afaee3;
+}
+#cr {
+	padding-top: 100;
+	margin-top: 0;
+	text-align: center;
+}
+#footerBG {
+	display: block;
+	width: 100%;
+	height: 200px;
+	background-color: #010a15;
+}

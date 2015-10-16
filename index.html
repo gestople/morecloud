@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MoreCloud - Free Unlimited VPS</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$(function() {
+	$('a[href="#pricing"]').click(function(e) {
+		e.preventDefault();
+		var targetOffset = $('div[id="pricing"]').offset().top;
+		$('body').animate(
+			{scrollTop: targetOffset},
+			1000
+		); 
+	});
+});
+</script>
+</head>
+<body>
+<div id="menuContainer">
+<div id="menuHeader">
+<div id="menuHeaderContact">
+<p>Call: 512-997-9577  &nbsp&nbsp&nbspEmail: sales@morecloud.net</p>
+</div>
+</div>
+<div id="menuBar">
+<div id="menuBarLogo">
+<a href="/"><img src="images/mcd_logo.png" height="25"></a>
+</div>
+<div id="menuBarLinks">
+<a href="#pricing">Pricing</a>
+<a href="services.html" onclick="vpsAlert()">Services</a>
+<a href="signup.html">Sign Up</a>
+</div>
+</div>
+</div>
+<div id="content">
+<div id="contentIntro">
+<h1>Servers All Around The World!</h1>
+<h2>Get 120 GB VPS w/ Unlimited Bandwidth For Free!</h2>
+<p>(No Credit Card Required)</p>
+</div>
+<div id="signupBtn">
+<a href="signup.html">Sign Up Now</a>
+</div>
+<div id="pricingWrapper">
+<div id="pricing" name="">
+<div id="pricing1">
+<h1>Free Edition</h1>
+<p><b>$0.00</b><br>1 Core CPU<br>512 MB Ram<br>120 GB Space<br>Unlimited Bandwidth<br>1 IP</p>
+</div>
+<div id="pricing2">
+<h1>Standard Edition</h1>
+<p><b>$19.99</b><br>2 Core CPU<br>1 GB Ram<br>240 GB Space<br>Unlimited Bandwidth<br>2 IPs</p>
+</div>
+<div id="pricing3">
+<h1>Pro Edition</h1>
+<p><b>$109.99</b><br>2 Core CPU<br>8 GB Ram<br>520 GB Space<br>Unlimited Bandwidth<br>2 IPs</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footerBG">
+<p id="cr">©2015 MoreCloud. All Rights Reserved</p>
+</div>
+</div>
+<script src="services.js"></script>
+</body>
+</html>
